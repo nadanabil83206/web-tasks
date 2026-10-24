@@ -1,0 +1,45 @@
+.bar {
+    background-color: rgba(19, 19, 105, 0.74);
+    padding: 10px;  
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+ h3, div nav a{
+    color: white;
+    margin: 10px;
+
+}
+
+.content{
+    margin: 10px;
+}
+
+
+
+
+@media(max-width:767px){
+    #links{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+
+    #links.open{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+@media(min-width:768px){
+    #menu-icon{
+        display: none;
+    }
+    #links{
+        display: flex;
+        gap:20px;
+    }
+}

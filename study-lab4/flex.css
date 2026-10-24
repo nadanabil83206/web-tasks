@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content:center;
+}
+
+@media (min-width: 640px){
+  .card{
+    flex-direction: row;
+
+}
+}
+
+.card img{
+  width: 200px;
+  height: auto;
+}

@@ -1,0 +1,31 @@
+h1{
+    color : blue;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+}
+
+body{
+
+    background-color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+hr{
+    border-color: aliceblue;
+}
+h3{
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    text-transform: uppercase;
+}
+
+.colors span, p{
+    display: inline;
+}
